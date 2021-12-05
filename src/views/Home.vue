@@ -27,7 +27,7 @@
     import leaflet from "leaflet";
     import {onMounted, ref} from "@vue/runtime-core";
     import axios from "axios";
-    import config from "../../config"
+    import config from "../../config.json"
 
     export default {
         name: 'Home',
